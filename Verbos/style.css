@@ -1,0 +1,106 @@
+
+body
+{
+	line-height: 1.6em;
+    background-color : black ;
+}
+h1
+{
+
+color: #F5BCA9;
+}
+#listV
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 13px;
+	margin: 0px;
+	width: auto;
+	text-align: left;
+	border-collapse: collapse;
+	background: url('table-images/patternb.png');
+}
+#listV thead tr
+{
+	background: url('table-images/patternb-head.png');
+}
+#listV th
+{
+	font-size: 15px;
+	font-weight: normal;
+	padding: 3px;
+	border-bottom: 3px solid red;
+	color: #039;
+}
+#listV td
+{
+	padding: 8px; 
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border-top: 1px solid transparent;
+}
+#listV tbody tr:hover td
+{
+	color: #339;
+	background: #cdcdee;
+    border: 1px solid red;
+}
+
+
+#conjV
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 8px;
+	width: 480px;
+	text-align: left;
+	border-collapse: collapse;
+	background: url('table-images/pattern.png');
+}
+#conjV thead tr
+{
+	background: url('table-images/pattern-head.png');
+}
+#conjV th
+{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 3px;
+	border-bottom: 1px solid #fff;
+	color: #039;
+}
+#conjV td
+{
+	padding: 8px; 
+	border: 1px solid black;
+	color: #669;
+	border-top: 1px solid transparent;
+}
+#conjV tbody tr:hover td
+{
+	color: #339;
+	background: #fff;
+}
+.vtense
+{
+    font-size: 13px;
+    color:#00ff00;
+}
+.tdr
+{
+    font-size: 15px;
+    font-weight:bold;
+    font-weight:900;
+
+}
+.verbSec #infoV
+{
+background-color:#CEF6EC;
+
+}
+.verbo
+{
+font-size: 15px;
+font-weight:bold;
+font-weight:900;
+
+}
