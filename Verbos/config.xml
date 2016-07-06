@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.coding_labs.verbos"
+        versionCode = "1" 
+        version     = "1.1.1" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>iComics</name>
+
+    <description>
+	The translation of top 100 Spanish verb  !
+	</description>
+
+    <author href="https://coding-labs.com" email="admin@coding-labs.com">
+        imadOs
+    </author>
+	<icon src="icon.png" platform="android" />
+	<access origin="*" />
+	<gap:plugin name="cordova-plugin-whitelist" source="npm" /> 
+
+</widget>

@@ -37,6 +37,7 @@ color: #F5BCA9;
 	border-bottom: 1px solid #fff;
 	color: #669;
 	border-top: 1px solid transparent;
+	font-size:30px;
 }
 #listV tbody tr:hover td
 {
@@ -51,10 +52,13 @@ color: #F5BCA9;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
 	font-size: 12px;
 	margin: 8px;
-	width: 480px;
+	width: 99%;
 	text-align: left;
 	border-collapse: collapse;
 	background: url('table-images/pattern.png');
+	line-height: 50px;
+	
+overflow: auto;   /* Scrollbar is displayed as it's needed */
 }
 #conjV thead tr
 {
@@ -62,7 +66,7 @@ color: #F5BCA9;
 }
 #conjV th
 {
-	font-size: 13px;
+	font-size: 25px;
 	font-weight: normal;
 	padding: 3px;
 	border-bottom: 1px solid #fff;
@@ -87,7 +91,7 @@ color: #F5BCA9;
 }
 .tdr
 {
-    font-size: 15px;
+    font-size: 35px;
     font-weight:bold;
     font-weight:900;
 
@@ -95,12 +99,28 @@ color: #F5BCA9;
 .verbSec #infoV
 {
 background-color:#CEF6EC;
+    width: 99%;
 
+}
+.verbSec{
+	width:99% !important
+}
+#infoV
+{
+    width: 99%;
+
+}
+#infoV{
+font-size:30px;
+line-height: 50px;
 }
 .verbo
 {
-font-size: 15px;
+font-size: 35px;
 font-weight:bold;
 font-weight:900;
 
+}
+.tdVerbHead,.vtense{
+font-size: 25px;
 }
